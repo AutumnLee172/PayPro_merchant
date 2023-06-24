@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllers.DashboardController">
+   <children>
+      <BorderPane fx:id="bp" layoutX="-4.0" prefHeight="400.0" prefWidth="600.0">
+         <left>
+            <VBox prefHeight="400.0" prefWidth="113.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <Group>
+                     <children>
+                        <Label alignment="CENTER" prefHeight="53.0" prefWidth="113.0" text="PayPro" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans MT" size="24.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0" startX="0.5075757657036637">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.7315529584884644" green="0.07352826744318008" blue="0.8631578683853149" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.3056128919124603" green="0.08640000224113464" blue="0.9599999785423279" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label layoutX="64.0" layoutY="9.0" opacity="0.64" text="Merchant" textFill="#430456">
+                           <font>
+                              <Font name="Calibri" size="7.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Button fx:id="btnDashboard" alignment="CENTER" mnemonicParsing="false" onAction="#showDashboard" prefHeight="35.0" prefWidth="100.0" stylesheets="@application.css" text="Dashboard" textAlignment="CENTER" translateX="8.0" translateY="7.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/icons8-dashboard-100.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnProduct" graphicTextGap="15.0" mnemonicParsing="false" onAction="#showProducts" prefHeight="35.0" prefWidth="100.0" stylesheets="@application.css" text="Products" translateX="8.0" translateY="15.0">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/icons8-products-100.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPayment" graphicTextGap="15.0" mnemonicParsing="false" onAction="#showPayments" prefHeight="35.0" prefWidth="100.0" stylesheets="@application.css" text="Payment" translateX="8.0" translateY="25.0">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/icons8-payment-100.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnProfile" graphicTextGap="15.0" layoutX="10.0" layoutY="80.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" stylesheets="@application.css" text="Profile" translateX="8.0" translateY="35.0">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/icons8-male-user-96.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnLogout" graphicTextGap="15.0" mnemonicParsing="false" onAction="#logout" prefHeight="35.0" prefWidth="100.0" stylesheets="@application.css" text="Logout" translateX="8.0" translateY="160.0">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/icons8-logout-96.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

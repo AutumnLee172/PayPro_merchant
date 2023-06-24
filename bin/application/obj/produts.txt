@@ -1,0 +1,5 @@
+60541664-71d5-4de3-8fc3-52b1681d5119,Water Bottle,50,D:\JavaProjects\PayPro/src/img/products/Picture2.jpg
+0a1df7b2-8c5a-410c-bead-f3f61b19bba3,Table,100,D:\JavaProjects\PayPro/src/img/products/Screenshot (5).png
+4c1a578c-b883-4dee-a869-fa74d002aad3,Rolling Thunder,500,D:\JavaProjects\PayPro/src/img/products/Picture3.jpg
+a72c345a-6a32-4170-831d-b4e7ff544629,Brush,5,D:\JavaProjects\PayPro/src/img/products/Picture9.jpg
+4ab09f93-a167-4954-92b1-44277fa0fe52,Neko,10,D:\JavaProjects\PayPro/src/img/products/cloth 28.jpg
